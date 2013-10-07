@@ -8,7 +8,7 @@ var MainCtrl = function ($scope, socket) {
       'AngularJS',
       'Karma'
     ];
-    $scope.thing = "Fuck";
+    $scope.thing = "Fuckyou";
     socket.on('count', function(data) {
 		//$scope.socketnumber = data.hello;
   		$scope.socketnumber = data.number;
